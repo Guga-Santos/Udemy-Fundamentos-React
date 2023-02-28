@@ -4,6 +4,7 @@ import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import Lista from "./components/basicos/Lista";
 import Primeiro from "./components/basicos/Primeiro";
+import ParOuImpar from "./components/condicional/ParOuImpar";
 import Card from "./components/layout/Card";
 import './index.css';
 
@@ -12,6 +13,9 @@ export default function App(props) {
     <div >
     <Primeiro />
     <div className="Cards">
+    <Card titulo="Par ou Impar">
+      <ParOuImpar numero={21}/>
+    </Card>
     <Card titulo="Lista de Produtos">
       <Lista />
     </Card>
