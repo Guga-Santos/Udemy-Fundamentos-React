@@ -10,7 +10,7 @@ export default function App(props) {
     <ComParametro
       titulo='Segundo Componente'
       subtitulo='Hello!' />
-    <Aleatorio />
+    <Aleatorio max={10} min={1}/>
   </div>
   )
 };
