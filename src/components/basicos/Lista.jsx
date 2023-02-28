@@ -14,12 +14,14 @@ export default function Lista() {
 
   return (
     <table border={1}>
-      <tr>
-        <th>ID</th>
-        <th>Produto</th>
-        <th>Preço</th>
-      </tr>
-      {listaDeProdutos}
+      <tbody>
+        <tr>
+          <th>ID</th>
+          <th>Produto</th>
+          <th>Preço</th>
+        </tr>
+        {listaDeProdutos}
+      </tbody>
     </table>
   )
 }
