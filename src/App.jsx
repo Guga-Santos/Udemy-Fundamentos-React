@@ -6,8 +6,9 @@ import './index.css';
 
 export default function App(props) {
   return (
-    <div>
+    <div >
     <Primeiro />
+    <div className="Cards">
     <Card titulo="Com Parâmetro">
     <ComParametro
       titulo='Segundo Componente'
@@ -16,6 +17,7 @@ export default function App(props) {
     <Card titulo="Meu Card">
     <Aleatorio max={60} min={1}/>
     </Card>
+    </div>
   </div>
   )
 };

@@ -4,6 +4,10 @@
   border-radius: 10px;
   overflow: hidden;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  min-height: 200px;
 }
 
 .Title {
@@ -17,4 +21,5 @@
   background: white;
   color: black;
   padding: 20px;
+  flex-grow: 1;
 }

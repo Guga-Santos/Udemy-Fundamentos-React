@@ -9,3 +9,10 @@ h1, h2, h3 {
   font-weight: 200;
   margin: 5px;
 }
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
