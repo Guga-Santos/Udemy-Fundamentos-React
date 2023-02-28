@@ -5,6 +5,7 @@ import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import Lista from "./components/basicos/Lista";
 import Primeiro from "./components/basicos/Primeiro";
 import ParOuImpar from "./components/condicional/ParOuImpar";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import Card from "./components/layout/Card";
 import './index.css';
 
@@ -15,6 +16,7 @@ export default function App(props) {
     <div className="Cards">
     <Card titulo="Par ou Impar">
       <ParOuImpar numero={21}/>
+      <UsuarioInfo usuario={{nome: "Fernando"}} />
     </Card>
     <Card titulo="Lista de Produtos">
       <Lista />
