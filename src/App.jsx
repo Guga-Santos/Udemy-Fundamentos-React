@@ -2,6 +2,7 @@ import Aleatorio from "./Aleatorio";
 import ComParametro from "./components/basicos/ComParametro";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
+import Lista from "./components/basicos/Lista";
 import Primeiro from "./components/basicos/Primeiro";
 import Card from "./components/layout/Card";
 import './index.css';
@@ -11,6 +12,9 @@ export default function App(props) {
     <div >
     <Primeiro />
     <div className="Cards">
+    <Card titulo="Lista de Produtos">
+      <Lista />
+    </Card>
     <Card titulo="Família">
       <Familia sobrenome="Santos">
       <FamiliaMembro nome="Gustavo"/>
