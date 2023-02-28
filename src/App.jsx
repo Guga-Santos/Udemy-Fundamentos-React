@@ -4,6 +4,7 @@ import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import Lista from "./components/basicos/Lista";
 import Primeiro from "./components/basicos/Primeiro";
+import DiretaPai from "./components/comunicacao/DiretaPai";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import Card from "./components/layout/Card";
@@ -14,6 +15,9 @@ export default function App(props) {
     <div >
     <Primeiro />
     <div className="Cards">
+    <Card titulo="Direta">
+      <DiretaPai />
+    </Card>
     <Card titulo="Par ou Impar">
       <ParOuImpar numero={21}/>
       <UsuarioInfo usuario={{nome: "Fernando"}} />
