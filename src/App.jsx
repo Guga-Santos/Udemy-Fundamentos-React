@@ -1,5 +1,6 @@
 import Aleatorio from "./Aleatorio";
 import ComParametro from "./components/basicos/ComParametro";
+import Familia from "./components/basicos/Familia";
 import Primeiro from "./components/basicos/Primeiro";
 import Card from "./components/layout/Card";
 import './index.css';
@@ -9,6 +10,9 @@ export default function App(props) {
     <div >
     <Primeiro />
     <div className="Cards">
+    <Card titulo="Família">
+      <Familia sobrenome="Lucena"/>
+    </Card>
     <Card titulo="Com Parâmetro">
     <ComParametro
       titulo='Segundo Componente'
