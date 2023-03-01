@@ -8,7 +8,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
-import Contador from "./components/contador/contador";
+import Contador from "./components/contador/Contador";
 import Input from "./components/formulario/Input";
 import Card from "./components/layout/Card";
 import './index.css';
@@ -19,7 +19,7 @@ export default function App(props) {
     <Primeiro />
     <div className="Cards">
       <Card titulo="Contador">
-        <Contador numeroInicial={10} pace={3}/>
+        <Contador numeroInicial={10}/>
       </Card>
       <Card titulo="Input">
         <Input />
