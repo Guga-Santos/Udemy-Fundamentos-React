@@ -8,6 +8,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import Input from "./components/formulario/Input";
 import Card from "./components/layout/Card";
 import './index.css';
 
@@ -16,6 +17,9 @@ export default function App(props) {
     <div >
     <Primeiro />
     <div className="Cards">
+    <Card titulo="Input">
+        <Input />
+      </Card>
       <Card titulo="Indireta">
         <IndiretaPai />
       </Card>
